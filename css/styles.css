@@ -1,0 +1,30 @@
+.hero-banner {
+  height: 758px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+.container {
+  height: 758px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-runner {
+    background-image: url('../Img/mobile-banner.png');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-runner {
+    background-image: url('../Img/tablet-banner.png');
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bg-runner {
+    background-image: url('../Img/desktop-banner.png');
+  }
+}
